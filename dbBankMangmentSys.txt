@@ -1,0 +1,23 @@
+create database bankmangmentsys;
+
+show databases;
+
+use bankmangmentsys;
+
+create table signup(formno varchar(20),name varchar(20),father_name varchar(20),dob varchar(20),gender varchar(20),email varchar(40),marital_status varchar(20),address varchar(40),city varchar(30),pin_code varchar(20),state varchar(30));
+
+show tables;
+
+select * from signup;
+
+create table signuptwo(formno varchar(20),religion varchar(20),category varchar(20),income varchar(20),eductional_qualification varchar(20),occupation varchar(40),pan_number varchar(20),addhar_number varchar(40),senior_citizen varchar(30),existing_account varchar(20));
+
+select * from signuptwo;
+
+create table signupthree(formno varchar(20),account_type varchar(40),card_no varchar(30),pin varchar(4),services_required varchar(50));
+
+select * from signupthree;
+
+create table user(card_no varchar(30),pin varchar(4),balance varchar(20));
+
+select * from user
